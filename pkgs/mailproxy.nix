@@ -12,8 +12,8 @@ python3.pkgs.buildPythonPackage rec {
   src = pkgs.fetchFromGitHub {
     owner = "leopf";
     repo = "mailproxy";
-    rev = "35bb2c2f8ec7489526bd2257a53b72135d691bcc";
-    hash = "sha256-z+NJRI7oS73ttVaidhE6HfiXx4PCQYFFq2zDJRpuKuA=";
+    rev = "fa707237a43f79d79d5fbbbab85e6fafb58b0f22";
+    hash = "sha256-HtXFRllwxGjEqfw/y/9hyusZ/wBz5jxx2r+1bF1bIfs=";
   };
 
   nativeBuildInputs = [ python3.pkgs.setuptools ];
