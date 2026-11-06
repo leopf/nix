@@ -12,8 +12,8 @@ python3.pkgs.buildPythonPackage rec {
   src = pkgs.fetchFromGitHub {
     owner = "leopf";
     repo = "rxxxt";
-    rev = version;
-    hash = "sha256-5JULIbl8x/ZVV0wdJ/H7UQ1T9ydVOQr9brUy3jLGt3M=";
+    rev = "c3f138af944572b9d2324a92933d2bd14b0ec24b";
+    hash = "sha256-dZ2guVcIfu5gEVO5M2AHqX+/+43KPhLpwsoDkKjcCHo=";
   };
 
   nativeBuildInputs = [ python3.pkgs.setuptools ];
